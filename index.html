@@ -395,7 +395,7 @@
           </svg>
       </button>
       <form class="contact-form">
-        <strong class="text-backdrop" >Залиште свої дані, ми вам передзвонимо</strong>
+        <strong class="text-backdrop text ">Залиште свої дані, ми вам передзвонимо</strong>
         <label class="text-form" for="">
             <span class="text-user">Ім'я</span> 
             <span class="contact-form-input-wrapper">
@@ -425,15 +425,15 @@
         </label>
         <label for="" class="contact-form-field">
             <span class="text-user">Коментар</span> 
-            <textarea name="user_message" class="contact-form-message" placeholder="Введіть текст"></textarea>
+            <textarea name="user_message" class="contact-form-input contact-form-message" placeholder="Введіть текст"></textarea>
         </label>
         <div class="checkbox-wrapper">
-            <input name="accept-policy" type="checkbox" class="text-checkbox" required>
-            <label for="" class="text-checkbox-label">
-                Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> 
+            <input name="accept-policy" type="checkbox" class="text-checkbox visually-hidden" id="policy-checkbox" required>
+            <label for="policy-checkbox" class="text-checkbox-label">
+                Погоджуюся з розсилкою та приймаю <a class="cont-policy" href="">Умови договору</a> 
             </label>
         </div>
-        <button type="submit" class="contact-form-btn">Відправити</button>
+        <button type="submit" class="modal-btn contact-form-btn">Відправити</button>
       </form>
     </div>
 </div>
